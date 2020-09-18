@@ -1,18 +1,18 @@
 html {
-  font-family: "helvetica" , "arial", "sans-serif";
+  font-family: helvetica, arial, sans-serif;
 }
 
 body {
   margin: 0;
   padding: 0;
-  background-color: #ffffff;
+  background-color: #fff;
   text-align: center;
 }
 
 header {
   position: fixed;
   width: 100%;
-  background-color: #ffffff;
+  background-color: #fff;
   z-index: 1;
 }
 
@@ -23,7 +23,7 @@ nav {
   align-items: center;
   border-bottom: 1px solid rgba(128, 128, 128, 0.527);
   height: 40px;
-  background-color: #ffffff;
+  background-color: #fff;
 }
 
 .menu {
@@ -136,7 +136,7 @@ nav {
   max-width: 80px;
   max-height: 80px;
   padding-top: 10px;
-  vertical-align: center;
+  vertical-align: middle;
 }
 
 .span {
@@ -201,6 +201,7 @@ nav {
 iframe {
   width: 100%;
   height: 375px;
+  border: 0;
 }
 
 .title-video {
@@ -253,7 +254,7 @@ iframe {
 }
 
 .edition {
-  font-size: .6rem;
+  font-size: 0.6rem;
   color: gray;
   line-height: 20px;
 }
@@ -285,7 +286,7 @@ iframe {
 
 .line {
   border: 1px solid black;
-  border-bottom: 0px;;
+  border-bottom: 0;
   margin-top: 80px;
 }
 
@@ -297,7 +298,6 @@ iframe {
 
 .news-list {
   list-style: none;
-  
 }
 
 .news-list li p {
