@@ -114,27 +114,35 @@ nav {
   float: right;
   width: 230px;
   height: 500px;
-  padding-right: 0px;
   text-align: left;
+  position: relative;
+  top: 1100px;
+  right: -70px;
 }
 
 .editors-pick p {
   border-bottom: 1px solid gray;
 }
 
+.editor-imgs {
+  vertical-align: baseline;
+}
+
+.img-cont {
+  margin-bottom: 10px;
+}
+
 .editor-img-1 {
   max-width: 80px;
   max-height: 80px;
-  padding-bottom: 10px;
+  padding-top: 10px;
   vertical-align: center;
 }
 
 .span {
   display: inline-block;
-  width: 110px;
+  width: 130px;
   position: relative;
-  padding-bottom: 10px;
-  top: -13px;
 }
 
 .span a {
@@ -144,6 +152,8 @@ nav {
 
 .questions {
   font-size: 12px;
+  position: relative;
+  top: -15px;
 }
 
 .des-section {
@@ -278,15 +288,28 @@ iframe {
   border-bottom: 0px;;
   margin-top: 80px;
 }
-.news-list {
-  list-style: none;
- 
-}
-.news-list a {
-  color: black;
-  text-decoration: none;
+
+.logo-footer {
+  width: 195px;
+  height: 26px;
+  margin: 20px 0 0 80px;
 }
 
+.news-list {
+  list-style: none;
+  
+}
+
+.news-list li p {
+  font-weight: 600;
+  color: gray;
+}
+
+.news-list a {
+  color: gray;
+  text-decoration: none;
+  line-height: 1.8rem;
+}
 
 .footer {
   display: flex;
@@ -294,8 +317,5 @@ iframe {
   justify-content: space-between;
   align-items: flex-start;
   text-align: left;
- 
+  padding: 40px;
 }
-
-.opinion-footer
-
