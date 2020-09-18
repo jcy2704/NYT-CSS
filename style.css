@@ -278,3 +278,24 @@ iframe {
   border-bottom: 0px;;
   margin-top: 80px;
 }
+.news-list {
+  list-style: none;
+ 
+}
+.news-list a {
+  color: black;
+  text-decoration: none;
+}
+
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  text-align: left;
+ 
+}
+
+.opinion-footer
+
