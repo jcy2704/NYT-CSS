@@ -1,3 +1,7 @@
+html {
+  font-family: "helvetica" , "arial", "sans-serif";
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -37,6 +41,11 @@ nav {
   padding: 12px 13px;
 }
 
+.space {
+  font-weight: 700;
+  font-size: 14.25px;
+}
+
 .logo {
   width: 195px;
   height: 26px;
@@ -63,21 +72,24 @@ nav {
 }
 
 .main {
-  width: 65%;
+  width: 73%;
   margin: 0 auto;
 }
 
 .main-container {
-  padding-top: 50px;
+  padding-top: 60px;
 }
 
 .title-container {
-  width: 100%;
-  text-align: center;
+  width: 45%;
+  text-align: left;
+  margin: 0 auto;
+  padding-bottom: 10px;
 }
 
 .title {
   font-style: italic;
+  font-family: 'georgia', 'times new roman', 'times', 'serif';
 }
 
 .telescope {
@@ -93,15 +105,19 @@ nav {
   margin-top: 0;
 }
 
+.article {
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+}
+
 .des-section {
-  width: 50%;
+  width: 55%;
   text-align: left;
   margin: 0 auto;
   padding-top: 50px;
 }
 
 .author-name a {
-
   color: black;
 }
 
@@ -127,6 +143,35 @@ nav {
   color: black;
 }
 
+.subscribe-sec {
+  margin: 0 auto;
+  text-align: center;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  max-width: 300px;
+  padding-bottom: 25px;
+}
+
+.title-video {
+  font-size: 0.9375rem;
+  color: gray;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid-img {
+  max-width: 100%;
+}
+
 .bicep {
   width: 100%;
+}
+
+.img-des-bicep {
+  font-size: 0.9375rem;
+  color: gray;
+  margin-top: 0;
+  line-height: 20px;
 }
