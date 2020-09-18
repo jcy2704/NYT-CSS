@@ -1,29 +1,3 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html, body, div, span, applet, object, iframe,
-h2, h3, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-
 body {
   margin: 0;
   padding: 0;
@@ -35,6 +9,7 @@ header {
   position: fixed;
   width: 100%;
   background-color: #ffffff;
+  z-index: 1;
 }
 
 nav {
@@ -42,13 +17,14 @@ nav {
   flex-flow: row;
   justify-content: space-between;
   align-items: center;
-  padding-left: 13px;
   border-bottom: 1px solid gray;
   height: 40px;
+  background-color: #ffffff;
 }
 
 .menu {
   list-style: none;
+  padding-left: 10px;
 }
 
 .left-menu a {
@@ -88,8 +64,7 @@ nav {
 
 .main {
   width: 65%;
-  position: relative;
-  left: 192px;
+  margin: 0 auto;
 }
 
 .main-container {
@@ -109,15 +84,20 @@ nav {
   width: 100%;
 }
 
+.article-img {
+  text-align: left;
+}
+
 .img-des {
   color: gray;
+  margin-top: 0;
 }
 
 .des-section {
   width: 50%;
   text-align: left;
-  margin-left: 200px;
-  margin-top: 50px;
+  margin: 0 auto;
+  padding-top: 50px;
 }
 
 .author-name a {
