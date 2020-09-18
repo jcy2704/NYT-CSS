@@ -4,7 +4,7 @@
 */
 
 html, body, div, span, applet, object, iframe,
-h2, h3, h4, h5, h6, p, blockquote, pre,
+h2, h3, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
@@ -29,6 +29,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #ffffff;
+  text-align: center;
 }
 
 header {
@@ -46,6 +47,7 @@ nav {
     border-bottom: 1px solid gray;
     height: 40px;
 }
+
 
 .menu {
   list-style: none;
@@ -85,6 +87,12 @@ nav {
     color: black;
 }
 
+.main {
+  width: 65%;
+  position: relative;
+  left: 192px;
+}
+
 .main-container {
   padding-top: 50px;
 }
@@ -94,9 +102,52 @@ nav {
   text-align: center;
 }
 
-.telescope{
+.title{
+  font-style: italic;
+}
+
+.telescope {
   width: 100%;
 }
+
+.img-des {
+  color: gray;
+}
+
+.des-section {
+  width: 50%;
+  text-align: left;
+  margin-left: 200px;
+  margin-top: 50px;
+}
+
+.author-name a {
+  
+  color: black;
+}
+
+.date-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.date {
+  color: gray;
+  padding-bottom: 20px;
+}
+
+.logos {
+ margin-right: 12px;
+  padding-bottom: 20px;
+}
+
+.logo-icon {
+  padding-left: 15px;
+  color: black;
+} 
+
 
 .bicep {
   width: 100%;
