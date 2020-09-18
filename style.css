@@ -4,7 +4,7 @@
 */
 
 html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
@@ -28,7 +28,13 @@ time, mark, audio, video {
 body {
   margin: 0;
   padding: 0;
-  background-color: #fff;
+  background-color: #ffffff;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    background-color: #ffffff;
 }
 
 nav {
@@ -36,23 +42,29 @@ nav {
     flex-flow: row;
     justify-content: space-between;
     align-items: center;
-    padding-left: 15px;
+    padding-left: 13px;
+    border-bottom: 1px solid gray;
+    height: 40px;
 }
 
+.menu {
+  list-style: none;
+}
 
 .left-menu a {
     color: black;
     text-decoration: none;
-   
 }
 
 .left-menu li{
   display: inline-block;
-  padding: 12px 15px;
+  padding: 12px 13px;
 }
-.menu {
-  list-style: none;
 
+.logo {
+  width: 195px;
+  height: 26px;
+  margin: 6px auto;
 }
 
 .right-menu {
@@ -64,11 +76,28 @@ nav {
   background-color:#567b95 ;
   color: white;
   padding: 10px 12px;
-  border: 0 ;
+  border: 0;
   border-radius: 3px;;
 }
 
 .user-acc {
     text-decoration: none;
     color: black;
+}
+
+.main-container {
+  padding-top: 50px;
+}
+
+.title-container{
+  width: 100%;
+  text-align: center;
+}
+
+.telescope{
+  width: 100%;
+}
+
+.bicep {
+  width: 100%;
 }

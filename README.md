@@ -1,12 +1,12 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# New York Times Article
 
-> One paragraph statement about the project.
+> Using the New York Times website we created a site using HTML and CSS and worked based on an article selected. This article specifically lead us to learn more about grids and positioning.
 
 ![screenshot](./app_screenshot.png)
 
-Additional description about the project and its features.
+We created a project based on a New York Times Article. The article had many grids which lead us to learn and use CSS grids and positioning. It have a nav bar and also includes the same article information we used as well as a video. We also included 
 
 ## Built With
 
