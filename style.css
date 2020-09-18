@@ -21,7 +21,7 @@ nav {
   flex-flow: row;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid gray;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.527);
   height: 40px;
   background-color: #ffffff;
 }
@@ -63,7 +63,7 @@ nav {
   padding: 10px 12px;
   border: 0;
   border-radius: 3px;
-  ;
+  font-weight: 800;
 }
 
 .user-acc {
@@ -110,6 +110,42 @@ nav {
   line-height: 1.875rem;
 }
 
+.editors-pick {
+  float: right;
+  width: 230px;
+  height: 500px;
+  padding-right: 0px;
+  text-align: left;
+}
+
+.editors-pick p {
+  border-bottom: 1px solid gray;
+}
+
+.editor-img-1 {
+  max-width: 80px;
+  max-height: 80px;
+  padding-bottom: 10px;
+  vertical-align: center;
+}
+
+.span {
+  display: inline-block;
+  width: 110px;
+  position: relative;
+  padding-bottom: 10px;
+  top: -13px;
+}
+
+.span a {
+  text-decoration: none;
+  color: black;
+}
+
+.questions {
+  font-size: 12px;
+}
+
 .des-section {
   width: 55%;
   text-align: left;
@@ -152,18 +188,43 @@ nav {
   padding-bottom: 25px;
 }
 
+iframe {
+  width: 100%;
+  height: 375px;
+}
+
 .title-video {
   font-size: 0.9375rem;
   color: gray;
   margin-top: -11px;
   line-height: 20px;
-  
-  
+}
 
+.grid-container {
+  position: relative;
+  width: 945px;
+  left: -190px;
+}
+
+.grid-desc {
+  margin: 0;
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+  margin-top: -23px;
 }
 
 .grid {
   display: grid;
+  grid-template-columns: 250px 25% 25% 25%;
+  grid-template-rows: 300px 180px;
+  max-width: 100%;
+  font-size: 14px;
+  margin-top: -450px;
+}
+
+.grid p {
+  padding-left: 10px;
+  line-height: 1.125rem;
 }
 
 .grid-img {
@@ -190,19 +251,22 @@ nav {
 .edition a {
   color: gray;
 }
+
 .comments {
   padding-top: 40px;
 }
+
 .load-comments {
   text-align: center;
   color: white;
-  border: 1px solid black;
+  border: 0;
   border-radius: 4px;
   padding: 10px 30px;
   text-decoration: none;
-  background-color: blue;
+  background-color: #567b95;
   margin-right: 90px;
-  
+  font-weight: 800;
+  width: 300px;
 }
 
 .comments a {
@@ -213,6 +277,4 @@ nav {
   border: 1px solid black;
   border-bottom: 0px;;
   margin-top: 80px;
-
-  
 }
