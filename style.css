@@ -155,6 +155,11 @@ nav {
 .title-video {
   font-size: 0.9375rem;
   color: gray;
+  margin-top: -11px;
+  line-height: 20px;
+  
+  
+
 }
 
 .grid {
@@ -162,7 +167,7 @@ nav {
 }
 
 .grid-img {
-  max-width: 100%;
+  width: 100%;
 }
 
 .bicep {
@@ -174,4 +179,40 @@ nav {
   color: gray;
   margin-top: 0;
   line-height: 20px;
+}
+
+.edition {
+  font-size: .6rem;
+  color: gray;
+  line-height: 20px;
+}
+
+.edition a {
+  color: gray;
+}
+.comments {
+  padding-top: 40px;
+}
+.load-comments {
+  text-align: center;
+  color: white;
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 10px 30px;
+  text-decoration: none;
+  background-color: blue;
+  margin-right: 90px;
+  
+}
+
+.comments a {
+  padding-right: 20px;
+}
+
+.line {
+  border: 1px solid black;
+  border-bottom: 0px;;
+  margin-top: 80px;
+
+  
 }
