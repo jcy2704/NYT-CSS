@@ -4,7 +4,7 @@
 
 > Using the New York Times website we created a site using HTML and CSS and worked based on an article selected. This article specifically lead us to learn more about grids and positioning.
 
-![screenshot](./Screenshot.png)
+![screenshot](Screenshot.png)
 
 We created a project based on a New York Times Article. The article had many grids which lead us to learn and use CSS grids and positioning. It have a nav bar and also includes the same article information we used as well as a video. We also included the footer.
 
@@ -46,19 +46,19 @@ Linters errors
 
 - GitHub: [@jcy2704](https://github.com/jcy2704)
 - Twitter: [@yiak_](https://twitter.com/yiak_)
-- LinkedIn: [LinkedIn](https://linkedin.com/stevenjchung)
+- LinkedIn: [Steven Jack Chung](https://linkedin.com/in/stevenjchung)
 
 👤 **Mir Rawshan Ali**
 
-- GitHub: [@sumon0002009](https://github.com/sumon0002009)
+- GitHub: [@sumon0002009](https://github.com/sumon0002001)
 - Twitter: [@sumon0002009](https://twitter.com/Sumon0002009)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/mir-rawshan-ali-27b6a5198/)
+- LinkedIn: [Mir Rawshan Ali](https://www.linkedin.com/in/mir-rawshan-ali-27b6a5198/)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/jcy2704/NYT-CSS/issues).
 
 ## Show your support
 
@@ -69,7 +69,3 @@ Give a ⭐️ if you like this project!
 - Hat tip to anyone whose code was used
 - Inspiration
 - New York Times
-
-## 📝 License
-
-This project is [MIT](lic.url) licensed.

@@ -211,17 +211,26 @@ iframe {
   line-height: 20px;
 }
 
-.grid-container {
+.grid-section {
+  width: 100%;
+  min-width: 962px;
+  height: 670px;
   position: relative;
-  width: 945px;
-  left: -190px;
+  left: 0;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.grid-container {
+  margin: 0 auto;
+  max-width: 945px;
 }
 
 .grid-desc {
   margin: 0;
   font-size: 0.875rem;
   line-height: 1.125rem;
-  margin-top: -23px;
+  margin-top: -15px;
 }
 
 .grid {
