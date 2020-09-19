@@ -215,8 +215,6 @@ iframe {
   width: 100%;
   min-width: 962px;
   height: 670px;
-  position: relative;
-  left: 0;
   margin: 0 auto;
   text-align: left;
 }
@@ -240,6 +238,7 @@ iframe {
   max-width: 100%;
   font-size: 14px;
   margin-top: -450px;
+  margin-left:-10px;
 }
 
 .grid p {
@@ -270,6 +269,11 @@ iframe {
 
 .edition a {
   color: gray;
+}
+
+.more-articles {
+  display: flex;
+
 }
 
 .comments {
