@@ -15,7 +15,7 @@ We created a project based on a New York Times Article. The article had many gri
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/jcy2704/NYT-CSS/c94a47b12d3e8e59b1e3a215ca6bc208600fde81/index.html)
+[Live Demo Link](https://rawcdn.githack.com/jcy2704/NYT-CSS/fd5bcea9dfc9bb0f96a26b08aee15b398c257a8c/index.html)
 
 
 ## Getting Started
